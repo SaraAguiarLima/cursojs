@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidades</h1>
+   <input type="text" name="txtor" id="txtor">
+   <input type="button" value="Verificar" onclick="calcular" >
+   <div id="res"></div>
+   <script>
+    function calcular (){
+        var or = window.document.querySelector('input#txtor')
+        var res = window.document.querySelector('div#res')
+        var or = Text ('txtor.value')
+        res.innerHTML = `Você nasceu no país ${país}`
+        if ( or == Brasil){
+            res.innerHTML =  <p>'Você é Brasileiro'</p>
+        }
+            res.innerHTML += ' Brasil é seu país de origem !'
+    
+    }
+   </script>
+</body>
+</html>
