@@ -1,2 +1,2 @@
 # cursojs
- Curso de JavaScript do Estudonautas
+ Curso de JavaScript do Estudonauta 🤖
